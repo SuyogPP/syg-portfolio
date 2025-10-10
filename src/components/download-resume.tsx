@@ -20,7 +20,7 @@ function DownloadResume() {
             onClick={handleDownload}
         >
             <Download />
-            Download Resume
+            Resume
         </Button>
     )
 }
