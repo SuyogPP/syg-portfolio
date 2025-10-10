@@ -26,7 +26,7 @@ export function Navigation() {
         <nav
             className={cn(
                 "fixed left-1/2 -translate-x-1/2 z-50 w-full px-4 md:px-0 mx-auto flex justify-center",
-                "bottom-6",
+                "bottom-2",
                 "md:top-6 md:bottom-auto"
             )}
         >
