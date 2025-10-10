@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col max-w-xl w-full mx-auto pt-0 md:pt-30 md:pb-10">
-      <Card className="p-2 rounded-lg pt-8 gap-2 pb-24 md:pb-0" >
+      <Card className="p-2 rounded-lg pt-8 gap-2 pb-24 md:pb-2" >
         <section id="share-section">
           <Summary />
         </section>

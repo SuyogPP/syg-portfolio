@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils';
 import { Card } from '../ui/card';
 import { usePathname, useRouter } from 'next/navigation';
 import DownloadResume from '../download-resume';
+import { Icon } from '@iconify/react';
 
 export function Navigation() {
 
@@ -15,9 +16,9 @@ export function Navigation() {
 
 
     const navItems = [
-        { icon: Home, id: "home", path: "/" },
-        { icon: User, id: "profile", path: "/profile" },
-        { icon: Briefcase, id: "experience", path: "/projects" },
+        { icon: "solar:home-angle-bold-duotone" , id: "home", path: "/" },
+        { icon: "solar:user-bold-duotone", id: "profile", path: "/profile" },
+        { icon: "solar:case-round-minimalistic-bold-duotone", id: "experience", path: "/projects" },
     ];
 
 
@@ -40,7 +41,7 @@ export function Navigation() {
                             onClick={() => push(item.path)}
                             className={cn("rounded-full hover:bg-secondary p-5", { "bg-secondary": item.path === pathname })}
                         >
-                            <item.icon className="!h-6 !w-6 text-muted-foreground" />
+                            <Icon icon={item?.icon} className="!h-6 !w-6 text-muted-foreground" />
                         </Button>
                     ))}
                 </div>

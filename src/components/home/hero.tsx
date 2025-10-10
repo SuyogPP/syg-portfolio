@@ -3,6 +3,7 @@
 import { Copy } from 'lucide-react';
 import DownloadResume from '../download-resume';
 import { Button } from '../ui/button';
+import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
 
 
 const NAME = "Suyog P P";
@@ -37,7 +38,11 @@ export function HeroSection() {
 
             <div className="flex-shrink-0">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-secondary to-muted flex items-center justify-center border-4 border-background shadow-lg">
-                    <span className="text-4xl font-bold text-foreground">YN</span>
+                    <Avatar className='size-29'>
+                        <AvatarImage src="/syg-hero.jpg" className='object-cover' />
+                        <AvatarFallback>SYG</AvatarFallback>
+                    </Avatar>
+
                 </div>
             </div>
         </div>

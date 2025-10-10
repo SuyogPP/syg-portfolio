@@ -1,6 +1,7 @@
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import { Circle } from "lucide-react";
+import { Icon } from "@iconify/react";
 
 export function Experience() {
     const data = [
@@ -51,7 +52,7 @@ export function Experience() {
     return (
         <div className="relative w-full overflow-clip n p-4 px-2 sm:px-6 shadow-none bg-muted rounded-md">
             <span className="text-md text-muted-foreground font-bold flex items-center">
-                <Circle className="mr-2 h-3 w-3 animate-pulse text-muted-foreground" />
+                <Icon icon="material-symbols:circle" className="mr-2 h-4 w-4 text-muted-foreground" />
                 Work Experience
             </span>
             <Timeline data={data} />

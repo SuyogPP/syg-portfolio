@@ -1,6 +1,8 @@
 "use client"
 
+import { Icon } from '@iconify/react';
 import { Circle } from 'lucide-react';
+import Image from 'next/image';
 
 const PROFILE = `Senior Front-End Developer with 4+ years of experience building fast, scalable web and mobile apps. Skilled in React.js, Next.js, Tailwind CSS, Node.js, and React Native. Strong focus on clean architecture, performance, and user experience. Proven leader in delivering quality products and mentoring teams in dynamic, product-driven environments.`
 
@@ -9,7 +11,7 @@ export function Summary() {
         <div className='flex flex-col justify-between p-4 px-2 sm:px-6 shadow-none bg-background rounded-md'>
 
             <span className="text-md text-muted-foreground font-bold flex items-center">
-                <Circle className="mr-2 h-3 w-3 animate-pulse text-muted-foreground" />
+                <Icon icon="material-symbols:circle" className="mr-2 h-4 w-4 text-muted-foreground" />
                 About
             </span>
 
@@ -22,6 +24,7 @@ export function Summary() {
                 </p>
             </div>
 
+            <Image src="/syg-photo.JPG" alt="syg-photo" height={300} width={300} className='object-cover aspect-square w-full mt-4 rounded-sm' />
 
         </div>
     )

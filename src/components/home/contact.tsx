@@ -2,7 +2,6 @@
 
 import { cn } from '@/lib/utils';
 import { Icon } from '@iconify/react';
-import { Circle } from 'lucide-react';
 import { Card } from '../ui/card';
 
 const SKILLS = [
@@ -28,7 +27,7 @@ export function Contact() {
         <Card className='flex flex-row justify-between p-4 px-2 sm:px-6 shadow-none bg-muted rounded-md'>
 
             <span className="text-md text-muted-foreground font-bold flex items-center">
-                <Circle className="mr-2 h-3 w-3 animate-pulse text-muted-foreground" />
+                <Icon icon="material-symbols:circle" className="mr-2 h-4 w-4 text-muted-foreground" />
                 Follow Me
             </span>
 
