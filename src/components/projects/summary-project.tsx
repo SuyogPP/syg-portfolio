@@ -3,7 +3,6 @@
 import { works } from "@/dataset/works.json";
 import { Badge } from "../ui/badge";
 
-const PROFILE = `Discover some of my notable projects that showcase my expertise in front-end development, React.js, Next.js, and more. These projects highlight my ability to create dynamic, user-friendly web applications with a focus on performance and scalability. Explore my work to see how I can bring value to your next project.`
 
 export function Summary({ slug }: { slug: string }) {
 

@@ -9,7 +9,7 @@ import Footer from "@/components/home/footer";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col max-w-xl w-full mx-auto pt-30 pb-10">
+    <div className="flex min-h-screen flex-col max-w-xl w-full mx-auto pt-30 pb-10 px-14 md:px-0">
       <Card className="p-2 rounded-lg pt-8 gap-2" >
         <section id="designation" className="px-6">
           <Designation />
