@@ -9,7 +9,7 @@ export function Summary({ slug }: { slug: string }) {
     const DATA = works?.find((item) => item.slug === slug);
 
     return (
-        <div className='flex flex-col justify-between p-4 px-6 shadow-none bg-background rounded-md'>
+        <div className='flex flex-col justify-between p-4 px-2 sm:px-6 shadow-none bg-background rounded-md'>
 
 
 

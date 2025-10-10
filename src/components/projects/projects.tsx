@@ -40,7 +40,7 @@ const SKILLS = [
 
 export function Projects() {
     return (
-        <Card className='flex justify-between p-6 shadow-none bg-muted rounded-md'>
+        <Card className='flex justify-between p-6 px-2 sm:px-6 shadow-none bg-muted rounded-md'>
 
             <div className='grid grid-cols-1 lg:grid-cols-1 gap-3'>
                 {

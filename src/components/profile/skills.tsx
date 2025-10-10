@@ -23,7 +23,7 @@ const SkillData = [
 
 export function Skills() {
     return (
-        <div className='flex flex-col justify-between p-4 px-6 shadow-none bg-background rounded-md'>
+        <div className='flex flex-col justify-between p-4 px-2 sm:px-6 shadow-none bg-background rounded-md'>
 
             <span className="text-md text-muted-foreground font-bold flex items-center">
                 <Circle className="mr-2 h-3 w-3 animate-pulse text-muted-foreground" />

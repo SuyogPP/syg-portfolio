@@ -4,7 +4,7 @@ import { Circle } from 'lucide-react'
 
 function Designation() {
     return (
-        <div className='flex justify-between items-center'>
+        <div className='flex flex-col md:flex-row justify-between items-center gap-2'>
             <div className='flex gap-2'>
                 <span className="text-md text-muted-foreground font-bold flex items-center">
                     <Circle className="mr-2 h-3 w-3 animate-pulse text-muted-foreground" />

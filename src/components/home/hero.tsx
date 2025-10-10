@@ -12,14 +12,8 @@ Currently working in Al Asas Information Technology.`;
 
 export function HeroSection() {
 
-    const scrollToContact = () => {
-        const element = document.getElementById("contact");
-        if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
-        }
-    };
     return (
-        <div className="flex flex-col sm:flex-row items-start gap-6 mb-8">
+        <div className="flex flex-col-reverse sm:flex-row items-start gap-6 mb-8">
             <div className="flex-1">
                 <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
                     I'm {NAME}

@@ -25,7 +25,7 @@ const SKILLS = [
 
 export function Contact() {
     return (
-        <Card className='flex flex-row justify-between p-4 px-6 shadow-none bg-muted rounded-md'>
+        <Card className='flex flex-row justify-between p-4 px-2 sm:px-6 shadow-none bg-muted rounded-md'>
 
             <span className="text-md text-muted-foreground font-bold flex items-center">
                 <Circle className="mr-2 h-3 w-3 animate-pulse text-muted-foreground" />

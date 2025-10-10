@@ -9,16 +9,17 @@ import Footer from "@/components/home/footer";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col max-w-xl w-full mx-auto pt-4 md:pt-30 pb-10 px-4 md:px-0">
-      <Card className="p-2 rounded-lg pt-8 gap-2" >
-        <section id="designation" className="px-6">
-          <Designation />
-        </section>
+    <div className="flex min-h-screen flex-col max-w-xl w-full mx-auto pt-0 md:pt-30 md:pb-10">
+      <Card className="p-2 rounded-lg pt-8 gap-2 pb-24 md:pb-0" >
 
-        <section id="hero-section" className="mt-6 px-6">
-          <HeroSection />
-        </section>
+          <section id="designation" className="px-6">
+            <Designation />
+          </section>
 
+          <section id="hero-section" className="mt-6 px-2 sm:px-6">
+            <HeroSection />
+          </section>
+         
         <section id="skills-section">
           <Skills />
         </section>
