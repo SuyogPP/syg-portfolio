@@ -1,0 +1,109 @@
+{
+    "works": [
+        {
+            "slug": "rams-web-app",
+            "title": "RAMS: Time and Attendance System",
+            "description": "Our platform addresses the complete lifecycle of employee attendance, scheduling, leave tracking, visitor control, and health & safety compliance — all within a single, scalable solution. By automating attendance processes, enhancing policy enforcement, and integrating with ERP systems, our solution empowers businesses to operate with increased efficiency, transparency, and compliance.",
+            "logo": "https://alasasit.com/logos/rams-logo.png",
+            "preview": "https://alasasit.com/screenshots/app.svg",
+            "paragraph1": "Our system is designed to: Automate and centralize attendance tracking across all branches and units, Simplify shift planning and roster scheduling, Integrate leave and attendance with ERP and payroll systems, Enable real-time tracking through mobile apps with Geofence and NFC, Improve visitor security and emergency response management, Enhance regulatory compliance and operational efficiency",
+            "paragraph2": "Features: Automate and centralize attendance tracking across all branches and units, Simplify shift planning and roster scheduling,Integrate leave and attendance with ERP and payroll systems, Enable real-time tracking through mobile apps with Geofence and NFC\n\nImprove visitor security and emergency response management\n\nEnhance regulatory compliance and operational efficiency",
+            "paragraph3": "",
+            "technologies": [
+                "React Native",
+                "Redux",
+                "Firebase",
+                "RESTful APIs",
+                "react-native-paper"
+            ],
+            "platforms": [
+                "iOS",
+                "Android"
+            ],
+            "link": "https://alasasit.com/solutions/rams"
+        },
+        {
+            "slug": "rams-mobile-app",
+            "title": "RAMS Mobile App",
+            "description": "RAMS is a comprehensive attendance tracking system designed for organizations managing mobile, remote, or site-based employees.",
+            "logo": "https://alasasit.com/logos/rams-logo.png",
+            "preview": "https://alasasit.com/screenshots/app.svg",
+            "paragraph1": "Ensures employees can only check in/out from authorized locations, eliminating time fraud and buddy punching.Ensures real-time visibility of staff presence using geofencing, NFC, and biometric features. Combines convenience for users with robust controls for administrators.",
+            "paragraph2": "NFC-based tap-to-punch for secure and contactless logging, GPS-based geofencing for location-validated check-in/out, Offline mode with automatic sync when reconnected, Real-time data visibility for HR and supervisors, Geolocation and timestamp capture to prevent fraudulent entries, Ideal for remote staff, field teams, and mobile workers",
+            "paragraph3": "",
+            "technologies": [
+                "React Native",
+                "Redux",
+                "Firebase",
+                "RESTful APIs",
+                "react-native-paper"
+            ],
+            "platforms": [
+                "iOS",
+                "Android"
+            ],
+            "link": "https://play.google.com/store/apps/details?id=com.alasasit.rams"
+        },
+        {
+            "slug": "visitor-management-system",
+            "title": "VisitTracker",
+            "description": "The VMS was engineered to handle complex visitor operations with ease, enabling seamless coordination between security, hosts, and administrative teams. I developed robust modules for visitor registration, long-term and short-term onboarding, automated card allocation, and safety video validation—all with an intuitive user interface. The system also incorporated smart data reuse, allowing returning visitors to prefill their details automatically and reducing processing time at security checkpoints.",
+            "logo": "https://alasasit.com/logos/visitrackerl-logo.svg",
+            "preview": "https://alasasit.com/screenshots/vt-dark.png",
+            "paragraph1": "The VMS was engineered to handle complex visitor operations with ease, enabling seamless coordination between security, hosts, and administrative teams. I developed robust modules for visitor registration, long-term and short-term onboarding, automated card allocation, and safety video validation—all with an intuitive user interface. The system also incorporated smart data reuse, allowing returning visitors to prefill their details automatically and reducing processing time at security checkpoints.",
+            "paragraph2": "Beyond the core workflow, I implemented intelligent features such as QR and PIN-based check-ins, ANPR-based vehicle tracking, and automated report generation for visitor activity, safety video expiry, and access validity. These capabilities provided transparency and control for facility management teams while ensuring a secure and frictionless experience for visitors. The project exemplified my ability to translate operational requirements into scalable, user-friendly software solutions that enhance both efficiency and compliance.",
+            "paragraph3": "",
+            "technologies": [
+                "React",
+                "Redux",
+                "MUI",
+                "RESTful APIs"
+            ],
+            "platforms": [
+                "Web"
+            ],
+            "link": "https://alasasit.com/solutions/visitTrackr"
+        },
+        {
+            "slug": "nomik-legal-website",
+            "title": "Nomik Legal Website",
+            "description": "Backend Development using Node.js, Next.js, Supabase, PostgreSQL, Azure and integrating with RESTful APIs. Deployment on Netlify",
+            "logo": "https://nomiklegal.com/images/nomic-legal-pllc-logo.svg",
+            "preview": "https://nomiklegal.com/images/nomic-legal-pllc-logo.svg",
+            "paragraph1": "",
+            "paragraph2": "",
+            "paragraph3": "",
+            "technologies": [
+                "Node.js",
+                "Next.js",
+                "Supabase",
+                "PostgreSQL",
+                "Azure"
+            ],
+            "platforms": [
+                "Web"
+            ],
+            "link": "https://nomiklegal.com/"
+        },
+        {
+            "slug": "ci-tech-website",
+            "title": "CI Tech Website",
+            "description": "Frontend Development using Node.js, Next.js, ShadCn and integrating with RESTful APIs.",
+            "logo": "https://citech.my/images/logos/citech-logo.svg",
+            "preview": "https://citech.my/images/logos/citech-logo.svg",
+            "paragraph1": "",
+            "paragraph2": "",
+            "paragraph3": "",
+            "technologies": [
+                "Node.js",
+                "Next.js",
+                "ShadCn",
+                "RESTful APIs"
+            ],
+            "platforms": [
+                "Web"
+            ],
+            "link": "https://citech.my/"
+        }
+    ]
+}
