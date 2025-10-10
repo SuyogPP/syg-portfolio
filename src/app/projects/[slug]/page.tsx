@@ -9,7 +9,7 @@ export default function ProjectsPage({ params }: { params: { slug: string } }) {
 
 
     return (
-        <div className="flex min-h-screen flex-col max-w-xl w-full mx-auto pt-30 pb-10">
+        <div className="flex min-h-screen flex-col max-w-xl w-full mx-auto pt-4 md:pt-30 pb-10 px-4 md:px-0">
             <Card className="p-2 rounded-lg gap-2" >
                 <section id="share-section">
                     <Summary slug={params?.slug} />

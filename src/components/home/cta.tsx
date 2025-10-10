@@ -4,6 +4,7 @@ import React from 'react';
 import { Badge } from '../ui/badge';
 import { Button } from '../ui/button';
 import { Copy, PlusCircle } from 'lucide-react';
+import DownloadResume from '../download-resume';
 
 
 const NAME = "Suyog P P";
@@ -28,14 +29,7 @@ export function CalltoAction() {
                 {PROFILE}
             </p>
             <div className="flex flex-wrap gap-3">
-                <Button
-                    variant="default"
-                    onClick={scrollToContact}
-                    className="cursor-alias"
-                >
-                    <PlusCircle className="mr-1 h-4 w-4" />
-                    Hire Me
-                </Button>
+                <DownloadResume />
                 <Button
                     variant="outline"
                     onClick={() => navigator.clipboard.writeText('your.email@example.com')}
