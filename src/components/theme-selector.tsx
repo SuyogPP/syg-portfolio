@@ -4,6 +4,7 @@ import * as React from "react"
 import { Moon, Sun, Monitor } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
+import { Icon } from "@iconify/react"
 
 type ThemeName = "light" | "dark" | "system"
 
@@ -19,7 +20,7 @@ export function ModeToggle() {
 
   const handleClick = () => setTheme(nextTheme)
 
-  const Icon = currentTheme === "dark" ? Moon : currentTheme === "light" ? Sun : Monitor
+  const icon = currentTheme === "dark" ? "moon" : currentTheme === "light" ? "sun-alt" : "monitor"
   const label = currentTheme === "dark" ? "Dark" : currentTheme === "light" ? "Light" : "System"
 
   return (
@@ -31,7 +32,7 @@ export function ModeToggle() {
       title={`Theme: ${label}. Click to switch to ${nextTheme}.`}
     >
       {/* Render a stable icon pre-mount to avoid hydration mismatch */}
-      {mounted ? <Icon className="h-[1.2rem] w-[1.2rem]" /> : <Monitor className="h-[1.2rem] w-[1.2rem]" />}
+      {mounted ? <Icon icon={`pixelarticons:${icon}`} className="h-[1.5rem] w-[1.5rem]" /> : <Monitor className="h-[1.5rem] w-[1.5rem]" />}
       <span className="sr-only">Toggle theme</span>
     </Button>
   )

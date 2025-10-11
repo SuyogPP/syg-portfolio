@@ -45,7 +45,7 @@ export function Projects() {
             <div className='grid grid-cols-1 lg:grid-cols-1 gap-3'>
                 {
                     SKILLS?.map((skill, index) => (
-                        <Link href={`/projects/${skill?.slug}` || "#"} target={skill?.slug ? "_self" : "_self"} rel="noopener noreferrer">
+                        <Link key={index} href={`/projects/${skill?.slug}` || "#"} target={skill?.slug ? "_self" : "_self"} rel="noopener noreferrer">
                             <Card
                                 className={cn('w-full flex flex-row px-4 hover:ring-6 hover:ring-muted-foreground/10 transition-shadow duration-500 items-center')}
                                 key={index}

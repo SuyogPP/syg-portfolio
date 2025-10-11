@@ -37,7 +37,7 @@ export function Projects() {
             <div className='grid grid-cols-1 lg:grid-cols-1 gap-3'>
                 {
                     SKILLS?.map((skill, index) => (
-                        <Card className={cn('w-full flex flex-row px-4 hover:ring-6 hover:ring-muted-foreground/10 transition-shadow duration-500 items-center')} key={index}>
+                        <Card key={index} className={cn('w-full flex flex-row px-4 hover:ring-6 hover:ring-muted-foreground/10 transition-shadow duration-500 items-center')}>
                             <div className='rounded-full border-1 h-16 w-16 aspect-square flex items-center justify-center'>
                                 {skill.thumbnail}
                             </div>

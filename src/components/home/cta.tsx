@@ -5,6 +5,7 @@ import { Badge } from '../ui/badge';
 import { Button } from '../ui/button';
 import { Copy, PlusCircle } from 'lucide-react';
 import DownloadResume from '../download-resume';
+import CopyEmail from '../copy-email';
 
 
 const NAME = "Suyog P P";
@@ -14,12 +15,7 @@ Currently working in Al Asas Information Technology.`;
 
 export function CalltoAction() {
 
-    const scrollToContact = () => {
-        const element = document.getElementById("contact");
-        if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
-        }
-    };
+
     return (
         <div className="flex flex-col items-center justify-center gap-2 !py-8">
             <h1 className="text-xl sm:text-4xl font-bold text-foreground">
@@ -30,14 +26,7 @@ export function CalltoAction() {
             </p>
             <div className="flex flex-wrap gap-3">
                 <DownloadResume />
-                <Button
-                    variant="outline"
-                    onClick={() => navigator.clipboard.writeText('your.email@example.com')}
-                    className="hover:bg-muted-foreground/30 cursor-alias"
-                >
-                    <Copy className="mr-1 h-4 w-4" />
-                    Copy Email
-                </Button>
+                <CopyEmail />
             </div>
         </div>
     )

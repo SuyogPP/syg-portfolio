@@ -17,9 +17,9 @@ export function Navigation() {
 
 
     const navItems = [
-        { icon: "solar:home-angle-bold-duotone", id: "home", path: "/" },
-        { icon: "solar:user-bold-duotone", id: "profile", path: "/profile" },
-        { icon: "solar:case-round-minimalistic-bold-duotone", id: "experience", path: "/projects" },
+        { icon: "pixelarticons:home", id: "home", path: "/" },
+        { icon: "pixelarticons:user", id: "profile", path: "/profile" },
+        { icon: "pixelarticons:briefcase-check", id: "experience", path: "/projects" },
     ];
 
 

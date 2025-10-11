@@ -4,6 +4,7 @@ import { Copy } from 'lucide-react';
 import DownloadResume from '../download-resume';
 import { Button } from '../ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
+import CopyEmail from '../copy-email';
 
 
 const NAME = "Suyog P P";
@@ -25,14 +26,7 @@ export function HeroSection() {
 
                 <div className="flex flex-wrap gap-3">
                     <DownloadResume />
-                    <Button
-                        variant="outline"
-                        onClick={() => navigator.clipboard.writeText('your.email@example.com')}
-                        className="hover:bg-muted-foreground/30 cursor-alias"
-                    >
-                        <Copy className="mr-1 h-4 w-4" />
-                        Copy Email
-                    </Button>
+                    <CopyEmail />
                 </div>
             </div>
 

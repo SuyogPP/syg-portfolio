@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './ui/button'
 import { Download } from 'lucide-react';
+import { Icon } from '@iconify/react';
 
 function DownloadResume() {
 
@@ -19,7 +20,7 @@ function DownloadResume() {
             className="rounded-md"
             onClick={handleDownload}
         >
-            <Download />
+            <Icon icon={`pixelarticons:arrow-bar-down`} className="h-[1.5rem] w-[1.5rem]" />
             Resume
         </Button>
     )
