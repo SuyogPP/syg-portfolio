@@ -1,9 +1,7 @@
 import { cn } from '@/lib/utils';
-import { Icon } from '@iconify/react';
-import { Circle } from 'lucide-react';
-import { Card } from '../ui/card';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Card } from '../ui/card';
 
 const SKILLS = [
     {

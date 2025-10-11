@@ -6,7 +6,7 @@ import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
 import { Icon } from "@iconify/react"
 
-type ThemeName = "light" | "dark" | "system"
+type ThemeName = "light" | "dark" 
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme()
@@ -14,7 +14,7 @@ export function ModeToggle() {
 
   React.useEffect(() => setMounted(true), [])
 
-  const order: ThemeName[] = ["light", "dark", "system"]
+  const order: ThemeName[] = ["light", "dark"]
   const currentTheme = (theme as ThemeName) || "system"
   const nextTheme = order[(order.indexOf(currentTheme) + 1) % order.length]
 

@@ -33,7 +33,7 @@ export function HeroSection() {
             <div className="flex-shrink-0">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-secondary to-muted flex items-center justify-center border-4 border-background shadow-lg">
                     <Avatar className='size-29'>
-                        <AvatarImage src="/avatar-syg.png" className='object-cover' />
+                        <AvatarImage src="/syg-avatar.jpg" className='object-cover' />
                         <AvatarFallback>SYG</AvatarFallback>
                     </Avatar>
 
