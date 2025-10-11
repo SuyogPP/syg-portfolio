@@ -8,7 +8,7 @@ const PROFILE = `Senior Front-End Developer with 4+ years of experience building
 
 export function Summary() {
     return (
-        <div className='flex flex-col justify-between p-4 px-2 sm:px-6 shadow-none bg-background rounded-md'>
+        <div className='flex flex-col justify-between p-4 px-2 sm:px-6 shadow-none rounded-md'>
 
             <span className="text-md text-muted-foreground font-bold flex items-center">
                 <Icon icon="material-symbols:circle" className="mr-2 h-4 w-4 text-muted-foreground" />
@@ -24,7 +24,7 @@ export function Summary() {
                 </p>
             </div>
 
-            <Image src="/syg-photo.JPG" alt="syg-photo" height={300} width={300} className='object-cover aspect-square w-full mt-4 rounded-sm' />
+            <Image src="/syg-hero.jpg" alt="syg-photo" height={300} width={300} className='object-cover aspect-square w-full mt-4 rounded-sm' />
 
         </div>
     )

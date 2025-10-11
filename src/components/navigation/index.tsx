@@ -8,6 +8,7 @@ import { Card } from '../ui/card';
 import { usePathname, useRouter } from 'next/navigation';
 import DownloadResume from '../download-resume';
 import { Icon } from '@iconify/react';
+import { ModeToggle } from '../theme-selector';
 
 export function Navigation() {
 
@@ -16,7 +17,7 @@ export function Navigation() {
 
 
     const navItems = [
-        { icon: "solar:home-angle-bold-duotone" , id: "home", path: "/" },
+        { icon: "solar:home-angle-bold-duotone", id: "home", path: "/" },
         { icon: "solar:user-bold-duotone", id: "profile", path: "/profile" },
         { icon: "solar:case-round-minimalistic-bold-duotone", id: "experience", path: "/projects" },
     ];
@@ -47,6 +48,7 @@ export function Navigation() {
                 </div>
 
                 <div className="flex flex-1" />
+                <ModeToggle />
                 <DownloadResume />
             </Card>
         </nav>

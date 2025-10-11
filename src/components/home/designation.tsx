@@ -10,7 +10,7 @@ function Designation() {
                     Senior Frontend Developer</span>
             </div>
             <div className="">
-                <Badge variant="outline" className='bg-green-100 text-green-800 font-bold border-none py-1 rounded-full'>
+                <Badge variant="outline" className='bg-green-100 dark:bg-green-500/30 dark:text-green-500  text-green-800 font-bold border-none py-1 rounded-full'>
                     <Icon icon="material-symbols:circle" className="mr-2 h-3 w-3 animate-pulse text-green-500" />
                     AVAILABLE FOR WORK
                 </Badge>

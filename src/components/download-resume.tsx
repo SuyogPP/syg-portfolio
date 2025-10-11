@@ -15,8 +15,8 @@ function DownloadResume() {
 
     return (
         <Button
-            variant="outline"
-            className="rounded-md border-primary text-primary-foreground hover:bg-primary/50"
+            variant="default"
+            className="rounded-md"
             onClick={handleDownload}
         >
             <Download />
