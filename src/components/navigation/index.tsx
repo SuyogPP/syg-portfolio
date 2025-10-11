@@ -9,11 +9,16 @@ import { usePathname, useRouter } from 'next/navigation';
 import DownloadResume from '../download-resume';
 import { Icon } from '@iconify/react';
 import { ModeToggle } from '../theme-selector';
+import Image from 'next/image';
+import { Separator } from '../ui/separator';
+import { useTheme } from 'next-themes';
 
 export function Navigation() {
 
     const pathname = usePathname();
     const { push } = useRouter();
+
+    const { theme } = useTheme()
 
 
     const navItems = [
@@ -33,6 +38,9 @@ export function Navigation() {
             )}
         >
             <Card className="h-16 rounded-lg px-4 py-5 !flex flex-row items-center gap-2 max-w-xl w-full">
+                <Image src={theme === "dark" ? "/logo.png" : "/logo-white.png"} className='object-cover' alt='logo' width={48} height={48} />
+                <Separator orientation='vertical' className='h-8' />
+
                 <div className='flex flex-row gap-2'>
                     {navItems.map((item) => (
                         <Button
