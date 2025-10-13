@@ -17,17 +17,13 @@ export function Navigation() {
 
     const pathname = usePathname();
     const { push } = useRouter();
-
-    const { theme } = useTheme()
-
+    const { theme } = useTheme();
 
     const navItems = [
         { icon: "pixelarticons:home", id: "home", path: "/" },
         { icon: "pixelarticons:user", id: "profile", path: "/profile" },
         { icon: "pixelarticons:briefcase-check", id: "experience", path: "/projects" },
     ];
-
-
 
     return (
         <nav
@@ -38,7 +34,9 @@ export function Navigation() {
             )}
         >
             <Card className="h-16 rounded-lg px-4 py-5 !flex flex-row items-center gap-2 max-w-xl w-full">
+                
                 <Image src={theme === "dark" ? "/logo.png" : "/logo-white.png"} className='object-cover' alt='logo' width={48} height={48} />
+
                 <Separator orientation='vertical' className='h-8' />
 
                 <div className='flex flex-row gap-2'>
