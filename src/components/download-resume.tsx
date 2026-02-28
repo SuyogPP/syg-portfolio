@@ -1,6 +1,5 @@
 import React from 'react'
-import { Button } from './ui/button'
-import { Download } from 'lucide-react';
+import Button from './ui/neumorph-button'
 import { Icon } from '@iconify/react';
 
 function DownloadResume() {
@@ -16,12 +15,14 @@ function DownloadResume() {
 
     return (
         <Button
-            variant="default"
-            className="rounded-md"
+            intent="primary"
             onClick={handleDownload}
+            size="small"
         >
-            <Icon icon={`pixelarticons:arrow-bar-down`} className="h-[1.5rem] w-[1.5rem]" />
-            Resume
+            <div className="flex flex-row items-center gap-2">
+                <Icon icon={`pixelarticons:arrow-bar-down`} className="h-[1rem] w-[1rem]" />
+                Resume
+            </div>
         </Button>
     )
 }
